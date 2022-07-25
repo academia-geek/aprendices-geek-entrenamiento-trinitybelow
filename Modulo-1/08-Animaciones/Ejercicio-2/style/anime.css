@@ -1,0 +1,60 @@
+body{
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: #300674;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    transition: all 1s;
+    border-radius: 5%;
+    padding: 10px;
+    line-height:150px;
+
+    animation-name: clase;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+}
+
+@keyframes clase {
+    0%{
+        background-color: palegreen;
+        top:0;
+        left: 0;
+    }
+    25%{
+        background-color:palevioletred;
+        top:0px;
+        left: 300px;
+    }
+    50%{
+        background-color:#000;
+        top:300px;
+        left: 300px;
+    }
+    75%{
+        background-color:rgb(136, 19, 19);
+        top:300px;
+        left: 0px;
+    }
+    100%{
+        background-color: palegreen;
+        top:0px;
+        left: 0px;
+    }
+    
+}

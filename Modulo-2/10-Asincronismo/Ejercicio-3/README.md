@@ -1,0 +1,2 @@
+### Ejercicio 3
+Con la siguiente URL https://api.github.com/users/nombreDeTuCuentaDeGithub puedes obtener la información básica de tu cuenta de github. Se necesita que obtengas esa información creando una función asincrona utilizando async await y fetch, luego muestrelo en el DOM en una card utilizando el marco de trabajo Bootstrap.

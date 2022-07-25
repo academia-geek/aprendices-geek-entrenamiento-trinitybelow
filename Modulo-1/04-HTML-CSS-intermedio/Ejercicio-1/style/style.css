@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    background-color:white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #header {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column; 
+    text-align: justify;
+  }
+  
+  #header-img {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  .nav-link li{
+    list-style: none;
+    margin: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #5f39364d;
+    flex:3 1 40%;
+    order: 2;
+    color: black;
+    display: flex;
+    flex-flow: column; 
+  }
+  
+  .nav-link li img{
+    width: 30%;
+    height: 50%;
+    margin: 0 auto; 
+    padding: 10px;
+  }
+  
+  
+  
+  

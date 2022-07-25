@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/formulario.css" media="screen">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="fondo">
+    <div>
+        <h1 id="title">Encuesta de sedes Educativas</h1>
+        <p id="subtitulo">Completa la información</p>
+        <br>
+    </div>
+    <forms>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nombre"><strong>Nombre IE</strong></label>
+                <input type="text" name="nombre" class="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="Barrio"><strong>Barrio:</strong></label>
+                <input type="text" name="Barrio" class="nome Barrio" required> 
+        </fieldset> 
+            <div class="campo">
+                <label name="modalidad"><strong>Modalidad de media Técnica</strong></label>
+                <label>
+                    <input type="radio" name="modalidad" value="salud">Salud
+                </label>    
+                <label>
+                    <input type="radio" name="modalidad" value="sistemas"> Sistemas
+                </label>
+                <label>
+                    <input type="radio" name="modalidad" value="contabilidad">Contabilidad
+                </label>
+            </div>
+            <div class="campo">
+                <label for="sector"><strong>Sector</strong></label>
+                <select id="sector">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Publico</option>
+                    <option>Privado</option>
+                    <option>Mixto</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label ></label><strong>Seleccione lenguajes vistos en la media técnica</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML" class="check"> HTML
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS" class="check"> CSS
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="PYTHON" class="check"> PYTHON
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="RUBY" class="check"> RUBY
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="JAVA" class="check"> JAVA
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="PHP" class="check"> PHP<br>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="JAVASCRIPT" class="check"> JAVASCRIPT
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label></label><strong>Descripción de experiencia en la media técnica</strong></label>
+                <textarea id="experiencia"></textarea>
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </fieldset>
+    </forms>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+#title{
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+
+.fondo{
+    width: 75%;
+    background-color: #380B61;
+    border-radius: 5%;
+    margin-top: 3%;
+    padding: 6px 0% 3% 5%; 
+    top: 80%;
+    margin-right:40%;
+    justify-content: center;
+    justify-items: center;
+}
+
+#subtitulo{
+    color: white;
+    margin: 3% 0 0 13%; /* Simplifiquei o margin | ORDEM: margin-top - margin-right - margin-bottom - margim-left */
+    padding-left: 12%;
+}
+
+#check {
+    display: inline-block;
+    padding: 10px;
+}
+
+.check {
+    margin:5px
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background:rgb(140, 0, 255);
+    font-size: 1em;
+    color: white;
+    margin: 2% 0 0 25%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    border: rgb(159, 123, 224);
+}
+
+input, select, textarea,button{
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+.boton{
+        font-size:1.2em;
+        background: white;
+        border: 0;
+        margin: 2% 0 1em 50%;
+        padding:0.2em 0.6em;
+        transform: translate(-50%, -50%);
+    
+}
+
+.boton:hover{
+    background-color: lightcoral;
+}
+
+#experiencia {
+    width: 85%; 
+    height: 80px; 
+    resize: none; 
+    outline: none; 
+}

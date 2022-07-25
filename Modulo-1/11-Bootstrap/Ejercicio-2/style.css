@@ -1,0 +1,15 @@
+.img-logo{
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    height: 400px;
+    background-image: url(https://codea.app/img/programaciones/como-agregar-el-framework-bootstrap-en-tu-proyecto-web-rapido2_.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    color:#fff;
+}

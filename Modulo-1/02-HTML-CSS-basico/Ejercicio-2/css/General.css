@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#fondo{
+background: url(../Imagenes/ballena1.jpg);
+height: 80vh;
+background-position: center;
+background-size: cover;
+}
+
+.contenedorTitu{
+  background: rgba(251, 251, 251, 0.3);
+  color: #FFF;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  position: relative;
+  top:50px;
+  width: 100%;
+}
+
+#titulo{
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+#titulo h1{
+    float: left;
+}
+
+.menu2{
+    float: right;
+    margin-top: 10px;
+}
+
+.menu2 a{
+   position: relative;
+    color: white;
+    text-decoration: none;
+    right: 10px;
+}
+
+
+.menu2 a:hover{
+    background: rgb(14, 202, 213,0.5);
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#Cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    height: auto;
+    background: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+
+#Cabeza h1{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+}
+
+.menu li{
+list-style: none;
+float: left;
+margin: 5px;
+}
+
+.menu li ul{
+  display: none;
+  position: absolute;
+}
+
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li ul li{
+  position: relative;
+}
+
+.menu li ul li ul{
+  height: -145;
+  top:0px;
+  padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+
+}
+
+.menu a:hover{
+    background: rgb(251, 251, 251,0.5);
+}
+
+.ContenedorNav{
+    width: 100%;
+    margin:auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+}
+
+#Principal{
+   color: #FFF;
+    position: relative;
+    top:55%;
+    padding: 10px;
+}
+
+.ContenedorPrin{
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.ContenedorPrin a{
+  color: #FFF;
+  text-decoration: none;
+  width: 10%;
+  padding: 5px 10px;
+}
