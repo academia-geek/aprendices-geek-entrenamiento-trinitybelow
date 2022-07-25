@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --varColor:#3A3539;
+    --varBack:#eeecee;
+    --varLetra:white;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);  
+}
+
+.title h1{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contenedor-Formulario{
+    width: 100%;
+    grid-column: span 5;
+    
+}
+
+.content-form{
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form h2{
+  font-size: 24px;
+  color: var(--varLetra);
+  margin:5px
+}
+
+
+.form input, select{
+    inline-size: 100%;
+    border:1px solid var(--varColor) ;
+    box-sizing: border-box;
+    color:white;
+    background-color:#251F24 ;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 12px;
+    color:var(--varLetra);
+    font-size: 16px;
+    margin-block-end:24px
+}
+
+.form input[type="submit"]{
+  background: #157EFB;
+  border: none;
+}
+
+.form label{
+    color: var(--varLetra);
+    font-size: 18px;
+}
+
+textarea{
+  inline-size: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+}

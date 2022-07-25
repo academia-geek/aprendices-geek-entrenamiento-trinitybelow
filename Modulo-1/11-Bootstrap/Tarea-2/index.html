@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Divisas </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center my-5">Divisas</h1>
+    <div id ="principal" class="container contenido-principal">
+
+        <div id="" class="row justify-content-center">
+            <form class="col-10 col-md-8" id="formulario">
+
+                 <div class="container text-center py-3 col-md-8">
+                        <input class="form-control text-center " type="text" placeholder="Cantidad de dinero">
+                    </div>
+                <div class="formulario-cotizar row">
+                    <div class="form-group col-12 col-md-4">
+                        <select id="moneda" class="form-control"></select>
+                    </div>
+                    <div class="form-group col-12 col-md-4">
+                        <select id="criptomoneda" class="form-control"></select>
+                    </div>
+                    <div class="form-group col-12 col-md-4">
+                        <button type="submit" class="btn btn-success">Convertir</button>
+                       
+                    </div>
+                </div>
+                <!--.formulario-cotizar-->
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

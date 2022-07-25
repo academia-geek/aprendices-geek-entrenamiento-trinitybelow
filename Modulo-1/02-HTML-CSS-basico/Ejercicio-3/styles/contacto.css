@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+
+}
+
+nav ul li a:hover{
+  font-size: 32px;
+  border-bottom: 2px solid red;
+
+}
+
+h1{
+    display:  inline-block;;
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+}
+

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="Css/style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    
+<div>
+    <div class="container py-2 text-center" id="formulario" >
+        <h2  class="text-center">Sistema de control de usuarios</h2>
+        <p class="lead">Ingrese usuario</p>
+        <form action="">
+            <input type="text" id="nombre" placeholder="nombre" class="form-control my-2">
+            <input type="text" id="edad" placeholder="edad" class="form-control my-2">
+            <input class="form-control" list="datalistOptions" id="ciudad" placeholder="Ciudad">
+            <datalist id="datalistOptions">
+              <option value="Medellìn">
+              <option value="Bello">
+              <option value="Envigado">
+              <option value="Sabaneta">
+              <option value="Barbosa">
+            </datalist>
+            <br>
+            <button id="boton" class="btn btn-success py-2 " type="reset" onclick="Capturar()"> Agregar</button>
+            </form>
+    </div>
+
+    <div class="container py-5 text-center">
+        <table class="table table-dark" id="tabla">
+            <thead class="thead-inverse">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+           
+        </table>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <script src="Js/Lab.js"></script>
+</body>
+
+</html>
